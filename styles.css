@@ -24,7 +24,7 @@ h2 {
   border: dotted 2px #f0a04b;
   padding: 50px;
   margin: 20px;
-  box-shadow: ;
+  bottom: 0;
 }
 
 footer {
@@ -32,6 +32,7 @@ footer {
   border-bottom: solid 2px #183a1d;
   position: fixed;
   bottom: 0;
+
   left: 0;
   width: 100%;
 }
