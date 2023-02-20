@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0px;
+  margin-top: 0px;
   padding: 0px;
   background-color: #e1eedd;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -22,8 +22,8 @@ h2 {
 
 .Questions {
   border: dotted 2px #f0a04b;
-  padding: 10px;
-  margin-bottom: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
   position: relative;
   text-align: center;
 }
@@ -40,6 +40,7 @@ h2 {
   border-radius: 10px 5px;
   margin-top: 10px;
   box-shadow: 3px 3px #183a1d;
+  font-size: medium;
 }
 
 .tags {
