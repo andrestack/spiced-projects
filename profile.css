@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin-top: 0px;
+  margin: 0px;
   padding: 0px;
   background-color: #e1eedd;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -20,27 +20,12 @@ h2 {
   text-align: center;
 }
 
-.Questions {
-  border: dotted 2px #f0a04b;
-  padding: 20px;
-  margin-bottom: 10px;
-  position: relative;
-  text-align: center;
-}
-
-.bookmark {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-
 .buttons {
   background-color: #f0a04b;
   padding: 10px;
   border-radius: 10px 5px;
   margin-top: 10px;
   box-shadow: 3px 3px #183a1d;
-  font-size: medium;
 }
 
 .tags {
@@ -66,7 +51,6 @@ footer {
 }
 
 .navbar {
-  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
