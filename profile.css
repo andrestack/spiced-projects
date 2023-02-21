@@ -7,6 +7,10 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
+main {
+  margin-bottom: 500px;
+}
+
 h1 {
   border: solid 2px;
   text-align: center;
@@ -17,7 +21,11 @@ h1 {
 h2 {
   margin: 10px;
   color: #183a1d;
-  text-align: center;
+  text-align: left;
+}
+
+p {
+  margin: 10px;
 }
 
 .buttons {
