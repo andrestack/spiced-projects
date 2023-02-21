@@ -1,3 +1,5 @@
+/* @import "./nav.css" -> location of the file you wish to import */
+
 * {
   box-sizing: border-box;
   margin-top: 0px;
@@ -5,6 +7,11 @@
   background-color: #e1eedd;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+/* comprises main elements like color and size and stores them to later use  */
+:root {
+  --main-color: ;
 }
 
 h1 {
