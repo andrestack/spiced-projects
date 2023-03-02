@@ -17,11 +17,18 @@ bookmarkButton.addEventListener("click", () => {
 
 answerButton.addEventListener("click", () => {
 answerText.classList.toggle("question-card__answer_hidden");
-
-
+textDisplay();
 
 })
 
+function textDisplay () {
+    if(answerButton.textContent === "show answer") {
+        answerButton.textContent = "hide answer";
+    } else {
+        answerButton.textContent = "show answer";
+        
+    }
+}
 
-
+    
 
