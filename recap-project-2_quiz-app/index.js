@@ -2,10 +2,6 @@ const bookmarkButton = document.querySelector('[data-js="question-card__icon"]')
 const answerButton = document.querySelector ('[data-js="question-card_button"]');
 const answerText = document.querySelector('[data-js="question-card__answer"]');
 
-
-
-
-
 bookmarkButton.addEventListener("click", () => {
     if (bookmarkButton.getAttribute("src")==="./assets/bookmark.png") {
         bookmarkButton.setAttribute("src", "./assets/bookmark_filled.png");
@@ -30,5 +26,17 @@ function textDisplay () {
     }
 }
 
-    
+const form = document.querySelector("form");
 
+form.addEventListener("submit", (event) => {
+event.preventDefault();
+// const formElements = event.target.elements;
+const formData = new FormData(event.target);
+const data = Object.fromEntries(formData);
+// console.log(data);
+})
+
+const newCard = document.createElement(".section question-card");
+
+document.body.append(newCard);
+console.log(newCard);
