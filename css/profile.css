@@ -1,3 +1,6 @@
+@import "./css/styles.css";
+
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -24,8 +27,26 @@ h2 {
   text-align: left;
 }
 
+.Profile {
+  width: 100px;
+  height: 100px;
+}
+
+.profile--pic {
+  width: 100%;
+  height: auto;
+  border: solid 10px #183A1D;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  border: solid 10px #183A1D;
+}
+
 p {
   margin: 10px;
+  border: solid 5px #183a1d;
 }
 
 .buttons {
@@ -66,4 +87,13 @@ footer {
 
 .navbar li {
   list-style: none;
+}
+@media screen and (min-width:800px) {
+  :root {
+    
+    --main-color: #FEFBE9;
+    --second-color: #E1EEDD;
+    --button-color: #F0A04B;
+    --bold-color: #183A1D; 
+  }
 }

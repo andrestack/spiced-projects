@@ -13,10 +13,10 @@
 
 /* comprises main elements like color and size and stores them to later use  */
 :root {
-  --main-color: #FEFBE9;
-  --second-color: #E1EEDD;
-  --button-color: #F0A04B;
-  --bold-color: #183A1D; 
+  --main-color: #F0ECCF;
+    --second-color: #FBC252;
+    --button-color: #FFB100;
+    --text-color: #A3BB98; 
 }
 
 h1 {
@@ -41,10 +41,16 @@ h2 {
   
 }
 
-.bookmark__icon {
+.question__box {
   position: absolute;
   top: 0px;
   right: 0px;
+}
+
+.backgroundImg {
+  position: absolute;
+  inset: 0;
+  background-image: url("./ass")
 }
 
 .answer__buttons {
@@ -92,10 +98,11 @@ footer {
 
 @media screen and (min-width:800px) {
   :root {
-    --main-color: #F0ECCF;
-    --second-color: #FBC252;
-    --button-color: #FFB100;
-    --text-color: #A3BB98; 
+    
+    --main-color: #FEFBE9;
+    --second-color: #E1EEDD;
+    --button-color: #F0A04B;
+    --bold-color: #183A1D; 
   }
 }
 
