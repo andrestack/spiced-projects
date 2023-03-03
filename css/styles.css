@@ -1,0 +1,110 @@
+/* @import "./nav.css" -> location of the file you wish to import */
+@import "./css/profile.css";
+@import "./css/bookmars.css";
+
+* {
+  box-sizing: border-box;
+  margin-top: 0px;
+  padding: 0px;
+  background-color: var(--main-color);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* comprises main elements like color and size and stores them to later use  */
+:root {
+  --main-color: #F0ECCF;
+    --second-color: #FBC252;
+    --button-color: #FFB100;
+    --text-color: #A3BB98; 
+}
+
+h1 {
+  border: solid 2px;
+  text-align: center;
+  color: #183a1d;
+  background-color: var(--button-color);
+}
+
+h2 {
+  margin: 10px;
+  color: var(--button-color);
+  text-align: center;
+}
+
+.question__box {
+  border: dotted 2px var(--bold-color);
+  padding: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: center;
+  
+}
+
+.question__box {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.backgroundImg {
+  position: absolute;
+  inset: 0;
+  background-image: url("./ass")
+}
+
+.answer__buttons {
+  background-color: var(--button-color);
+  padding: 10px;
+  border-radius: 10px 5px;
+  margin-top: 10px;
+  box-shadow: 3px 3px #183a1d;
+  font-size: medium;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.tags > button {
+  background-color: var(--second-color);
+  border: solid 1px #183a1d;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+footer {
+  border-top: solid 2px var(--bold-color);
+  border-bottom: solid 2px var(--bold-color);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+
+@media screen and (min-width:800px) {
+  :root {
+    
+    --main-color: #FEFBE9;
+    --second-color: #E1EEDD;
+    --button-color: #F0A04B;
+    --bold-color: #183A1D; 
+  }
+}
+
+@media (prefered-color-scheme:dark) {
+}

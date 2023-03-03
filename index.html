@@ -5,31 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <h1 class="feature-title">Quiz App</h1>
-
-  <article class="Question1">
-    <h2>Question 1</h2>
-    <p>What is the</p>
-  </article>
-
-  <article class="Question2">
-    <h2>Question 2</h2>
-    <p>Where was...</p>
-  </article>
-
-  <article class="Question3">
-    <h2>Question 2</h2>
-    <p>Name the ...</p>
-  </article>
-
   <body>
-    <footer class="container">
-      <a href="">Home</a>
-      <a href="">Bookmarks</a>
-      <a href="">Profile</a>
+    <main>
+      <h1>Quizzionaire</h1>
+<!----->
+<section>
+
+  <section class="questions question__box">
+    <div class="bookmark">
+      <input type="checkbox" aria-label="check-for-bookmark">
+      <div class="backgroundImg">
+        <span class="show-for-sr"></span>
+      </div>
+    </div>
+
+    <!-- <img -->
+      class="bookmark bookmark__icon"
+      src="./assets/icons8-gefülltes-lesezeichen-32.png"
+      alt=""
+    />
+    <h2>
+      Which language has the more native speakers: English or Spanish?
+    </h2>
+
+    <button class="buttons answer__buttons">Answer</button>
+    <div class="tags">
+      <button>#Languages</button>
+      <button>#Curiosity</button>
+    </div>
+  </section>
+
+</section>
+      <section class="questions question__box">
+        <div class="bookmark">
+          <input type="checkbox" aria-label="check-for-bookmark">
+          <div class="backgroundImg">
+            <span class="show-for-sr"></span>
+          </div>
+        </div>
+
+        <!-- <img -->
+          class="bookmark bookmark__icon"
+          src="./assets/icons8-gefülltes-lesezeichen-32.png"
+          alt=""
+        />
+        <h2>
+          Which language has the more native speakers: English or Spanish?
+        </h2>
+
+        <button class="buttons answer__buttons">Answer</button>
+        <div class="tags">
+          <button>#Languages</button>
+          <button>#Curiosity</button>
+        </div>
+      </section>
+
+      <article class="questions question__box">
+        <img
+          class="bookmark bookmark__icon"
+          src="./assets/icons8-gefülltes-lesezeichen-32.png"
+          alt="Bookmark Image"
+        />
+        <h2>What is the most common surname in Portugal?</h2>
+        <button class="buttons answer__buttons">Answer</button>
+        <div class="tags">
+          <button>#Typical</button>
+        </div>
+      </article>
+
+      <article class="questions question__box">
+        <img
+          class="bookmark bookmark__icon"
+          src="./assets/icons8-gefülltes-lesezeichen-32.png"
+          alt="Bookmark Image"
+        />
+
+        <h2>What country drinks the most coffee per capita?</h2>
+        <button class="buttons answer__buttons">Answer</button>
+        <div class="tags">
+          <button>#Habits</button>
+          <button>#Drinks</button>
+          <button>#Curiosity</button>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <ul class="navbar">
+        <li>
+          <a href="./index.html"
+            ><img src="./assets/icons8-startseite-48.png" alt="Go to homepage"
+          /></a>
+        </li>
+        <li>
+          <a href="./bookmarks.html"
+            ><img src="./assets/bookmark32.png" alt="Go to Bookmarks"
+          /></a>
+        </li>
+        <li>
+          <a href="./profile.html"
+            ><img src="./assets/icons8-benutzer-48.png" alt="Go to Profile"
+          /></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

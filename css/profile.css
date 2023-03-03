@@ -1,0 +1,99 @@
+@import "./css/styles.css";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: #e1eedd;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  margin-bottom: 500px;
+}
+
+h1 {
+  border: solid 2px;
+  text-align: center;
+  color: #183a1d;
+  background-color: #f0a04b;
+}
+
+h2 {
+  margin: 10px;
+  color: #183a1d;
+  text-align: left;
+}
+
+.Profile {
+  width: 100px;
+  height: 100px;
+}
+
+.profile--pic {
+  width: 100%;
+  height: auto;
+  border: solid 10px #183A1D;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  border: solid 10px #183A1D;
+}
+
+p {
+  margin: 10px;
+  border: solid 5px #183a1d;
+}
+
+.buttons {
+  background-color: #f0a04b;
+  padding: 10px;
+  border-radius: 10px 5px;
+  margin-top: 10px;
+  box-shadow: 3px 3px #183a1d;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.tags > button {
+  background-color: #fefbe9;
+  border: solid 1px #183a1d;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+footer {
+  border-top: solid 2px #183a1d;
+  border-bottom: solid 2px #183a1d;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar li {
+  list-style: none;
+}
+@media screen and (min-width:800px) {
+  :root {
+    
+    --main-color: #FEFBE9;
+    --second-color: #E1EEDD;
+    --button-color: #F0A04B;
+    --bold-color: #183A1D; 
+  }
+}
