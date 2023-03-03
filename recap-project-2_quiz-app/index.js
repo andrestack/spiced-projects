@@ -32,7 +32,7 @@ const form = document.querySelector("form");
 
 form && form.addEventListener("submit", (event) => {
 event.preventDefault();
-event.target.remove();
+event.target.reset();
 // const formElements = event.target.elements;
 const formData = new FormData(event.target);
 const data = Object.fromEntries(formData);
@@ -61,7 +61,7 @@ charactersLeft(event);
 function charactersLeft (event) {
     const maxLength = event.target.maxLength;
     const amountLeft = (maxLength - event.target.value.length);
-    console.log("hello");
+
     
     if (event.target.name === "question") {
         questionCharacters.textContent = amountLeft + " characters left"
