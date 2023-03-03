@@ -92,6 +92,11 @@ section {
   
 }
 
+textarea {
+  font-size: large;
+  padding: 10px;
+}
+
 .submit-button {
   display: flex;
 }

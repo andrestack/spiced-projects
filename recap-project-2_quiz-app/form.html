@@ -21,13 +21,17 @@
 <form action="" data-js="formData">
 <fieldset>
 <legend>Your Question</legend>
-<textarea name="question" id="question" rows="2" cols="170"></textarea>
+<textarea data-js="question-text" type="text" name="question" id="question" rows="2" cols="120" minlength="20" maxlength="150" required></textarea>
+<blockquote data-js="question-characters"></blockquote>
 </fieldset>
 
 <fieldset>
   <legend>Your Answer</legend>
-  <textarea name="answer" id="answer" rows="2" cols="170"></textarea>
-  </fieldset>
+  <textarea data-js="answer-text" type="text" name="answer" id="answer" minlength="20" maxlength="150" rows="2" cols="120" required></textarea>
+
+  <blockquote data-js="answer-characters"></blockquote>
+
+</fieldset>
 
     <legend>Tags</legend>
     <input type="text" id="tags" name="tags"></input>
