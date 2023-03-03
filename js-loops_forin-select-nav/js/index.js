@@ -20,7 +20,24 @@ const select = document.createElement("select");
 select.name = "languages";
 main.append(select);
 
+// const cohort={
+//   name: "sugar",
+//   amountStundent: 9,
+//   academy: Spiced,
+//   };
+  
+//   for (let key in cohort){
+//   console.log(key, cohort[key]);
+//   --- console.log (cohort.key); we cannot acce like this, bc key is a variable --
+
 // --v-- write/change code here --v--
+for (let key in languages){
+  console.log(key, languages[key]);
+  const option = document.createElement("option");
+  option.innerHTML = languages[key];
+  select.append(option);
+}
+
 
 // --^-- write/change code here --^--
 
@@ -38,5 +55,18 @@ main.append(navElement);
 navElement.append(ul);
 
 // --v-- write/change code here --v--
+
+for (let items in nav){
+  console.log(nav[items]);
+  const li = document.createElement("li");
+  const a = document.createElement("a")
+  const element = nav[items];
+  a.setAttribute("href", element.href);
+  a.textContent = element.text;
+  
+ul.append(li);
+li.append(a);  
+}
+
 
 // --^-- write/change code here --^--
