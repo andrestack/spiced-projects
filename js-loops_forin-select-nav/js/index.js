@@ -14,6 +14,7 @@ const languages = {
   PT: "Portuguese",
   RU: "Russian",
   ZH: "Chinese",
+
 };
 
 const select = document.createElement("select");
@@ -40,6 +41,7 @@ const nav = {
   home: { href: "/home", text: "Home" },
   about: { href: "/about", text: "About" },
   contact: { href: "/contact", text: "Contact" },
+  blog: { href: "/contact", text: "Blog" },
 };
 
 for (let key in nav){
